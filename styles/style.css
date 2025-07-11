@@ -21,6 +21,7 @@
     padding: 0 150px;
     height: 700px;
     max-width: 1440px;
+    margin: 0 150px 116px;
 
 }
 /*nav styles*/
@@ -107,10 +108,18 @@
 
 /*productive user*/
 .pro-user {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     max-width: 1140px;
-    height: 300px;
-    margin: 0 auto;
+    height: 200px;
+    margin: 105px 150px 105px;
     padding: 50px 140px;
     background-color: #4d47ff1e;
+}
+
+.user-numbers {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
 }
