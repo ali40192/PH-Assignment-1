@@ -147,7 +147,7 @@
 .reviews {
     max-width: 1140px;
     height: 350px;
-    margin: 147px 150px;
+    margin: 0 auto;
     text-align: center;
 }
 .card-review {
@@ -160,11 +160,11 @@
 
 .card {
     text-align: left;
-    width: 500px;
-    height: 240px;
+    width: 580px;
+    height: 220px;
     margin-top: 0;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
 
 }
 
@@ -190,4 +190,73 @@
     justify-content:flex-start;
     align-items: center;
     gap: 30px;
+}
+
+/* /*form styles*/
+.form {
+    margin: 0 auto;
+    max-width: 1140px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.form-column {
+    width: 560px;
+    padding:;
+}
+
+.form-title {
+    font-size: 100px;
+    font-weight: bold;
+}
+.form-input {
+    width: 500px;
+
+}
+
+.form-input input[type="email"], input[type="text"], .text-area {
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    border-style: none;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.form-input label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    padding: 100px 0;
+    width: 100%;
+    height: 300px;
+    background-color: #f2eded;
+    text-align: center;
+}
+
+.footer-logo {
+    margin-top: 100px;
+    font-size: 80px;
+    
+}
+.footer-sub {
+    font-size: 15px;
+    color: #8987A1;
+    margin-top: 0px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 15px;
+
 }
