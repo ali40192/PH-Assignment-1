@@ -77,7 +77,7 @@
     align-items: center;
     max-width: 1140px;
     height: 280px;
-    margin: 116px auto;
+    margin: 140px auto;
     gap: 400px;
 
 }
@@ -92,6 +92,8 @@
     font-weight: regular;
     color: #252432;
 }
+
+
 
 
 
@@ -115,6 +117,7 @@
     margin: 105px 150px 105px;
     padding: 50px 140px;
     background-color: #4d47ff1e;
+    border-radius: 15px;
 }
 
 .user-numbers {
@@ -140,3 +143,51 @@
      }
      
 
+/*Reviews*/
+.reviews {
+    max-width: 1140px;
+    height: 350px;
+    margin: 147px 150px;
+    text-align: center;
+}
+.card-review {
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    gap: 50px;
+
+}
+
+.card {
+    text-align: left;
+    width: 500px;
+    height: 240px;
+    margin-top: 0;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.review-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.rev-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.rev-sub {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.rev-per {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 30px;
+}
