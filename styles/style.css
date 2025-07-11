@@ -77,8 +77,8 @@
     align-items: center;
     max-width: 1140px;
     height: 280px;
-    margin: 116px 150px;
-    gap: 200px;
+    margin: 116px auto;
+    gap: 400px;
 
 }
 
